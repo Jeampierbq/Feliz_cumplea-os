@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Papel Picado Encodedmabel</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <br>
+  <div class="container">
+    <h1>"FELIZ CUMPLEAÑOS MI AMOR"</h1>
+    <h1> &#10084; ANA &#10084;&#65039;</h1>
+  </div>
+
+  <!-- Botón y audio -->
+  <div class="audio-container">
+    <button id="playAudioButton" class="btn">🎵 ¡FELICIDADES! 🎉</button>
+    <audio id="birthdayAudio" src="bdayaudio.mp3"></audio>
+  </div>
+
+  <!-- Botón para abrir la carta -->
+  <div class="letter-container">
+    <button id="openLetterButton" class="btn">💌 Ver mi Carta para Ti 💌</button>
+  </div>
+
+  <!-- Modal para la carta -->
+  <div id="letterModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <h2>Para mi Ana querida ❤️</h2>
+      <p>
+        Amor, hoy quiero dedicarte unas palabras para recordarte cuánto te amo y lo especial que eres para mí. Este día tan especial celebro no solo tu cumpleaños, sino también cada momento hermoso que compartimos juntos: cada broma, cada enojo jajaja, y cada beso que me llena de felicidad. Nunca olvidaré la primera vez que te vi en la playa, donde todo comenzó, donde mi corazón encontró su razón y volví a creer en el amor después de tanto tiempo ❤️.
+      </p>
+      
+      <p>
+        Gracias por ser mi compañera, mi apoyo y la razón de tantas sonrisas. Espero que esta pequeña sorpresa te haga
+        tan feliz como tú me haces a mí todos los días. Eres mi mayor regalo, y quiero que siempre lo sepas.
+      </p>
+      <p>
+        Te amo más de lo que las palabras pueden expresar. Feliz cumpleaños, mi amor. 🎉❤️
+      </p>
+      <p>Con todo mi corazón,</p>
+      <p><strong>Jeampier Barrios</strong></p>
+    </div>
+  </div>
+
+  <script async src="https://ga.jspm.io/npm:es-module-shims@1.6.3/dist/es-module-shims.js"
+    crossorigin="anonymous"></script>
+  <script type="importmap">
+    {
+      "imports": {      
+        "three": "https://unpkg.com/three@0.159.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.159.0/examples/jsm/"
+      }
+    }
+  </script>
+  <script type="module" src="./script.js"></script>
+</body>
+
+</html>
